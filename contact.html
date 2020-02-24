@@ -42,13 +42,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="./contact.html">Contact Me</a>
             </li>
           </ul>
@@ -56,30 +56,38 @@
     </nav>
 
     <!-- Content -->
-    <!-- Intro -->
-    <div class="intro text-center">
-        <h1>UI/UX Designer & Front End Development</h1>
-        <hr>
-        <p>Freelance Web Designer & Developer based in Philadelphia, PA.</p>
-        <img src="./assets/images/IMG_8728 square.jpg" class="rounded-circle" alt="profile picture">
-        <h2>Samantha Considine</h2>
+    <div class="container">
+        <h2 class="contact-form">Contact Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="examplename">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <div class="contact d-flex justify-content-center">
+                <a href="https://twitter.com/sam_considine" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+                <a href="https://github.com/slconsidine" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                <a href="www.linkedin.com/in/samantha-considine-232788b9" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
+    
+            <p class="text-center">Email: samlconsidine@gmail.com</p>
+            <p class="text-center">Phone: (267) 769-8732</p>
     </div>
 
-    <!-- Main Content -->
-    <div class="main text-center">
-        <h3>Hi, my name is Sam. Thanks for stopping by!</h3>
-        <div class="container bio">
-            <p>I began my journey as a web developer as a student in the Penn LPS Coding Bootcamp. Through a fast-paced learning environment and collaboration with my peers I have gained an advanced understanding of today's web development needs and how to meet them. I'm design-focused and enjoy troubleshooting code.</p>
-        </div>
-    </div>
-    
-    <div class="contact d-flex justify-content-center">
-        <a href="https://twitter.com/sam_considine" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-        <a href="https://github.com/slconsidine" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-        <a href="www.linkedin.com/in/samantha-considine-232788b9" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-    </div>
+
 
 
 
 </body>
+
 </html>

@@ -1,0 +1,58 @@
+/* Navigation */
+nav {
+    height: 80px;
+}
+
+
+/* Content */
+.intro {
+    margin-top: 40px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.bio {
+    padding: 20px;
+}
+
+.row {
+    margin: auto;
+}
+
+.row-2 {
+    margin-top: 100px;
+}
+
+.proj {
+    margin-bottom: 25px;
+}
+
+i {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.contact-form {
+    padding-top: 30px;
+}
+
+.card {
+    width: 483px;
+    height: 294px;
+}
+
+/* .card img {
+    opacity: 0.5;
+} */
