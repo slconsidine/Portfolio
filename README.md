@@ -1,9 +1,19 @@
 # Portfolio
+## Project Title
+### Samantha Considine Portfolio
+Github Pages Link - https://slconsidine.github.io/Portfolio/
 
-TO DO:
-1. add link to resume - done
-2. work on responsiveness for cards on portfolio page - done
-3. do nicer styling on the index page - done
-4. put together theme for full site - done
-5. fix nav bar responsiveness - done
-6. update readmes for all sites
+## Description
+This portfolio showcases my abilities and achievements as a UI/UX designer and web developer. It also includes contact information for potential employers/clients to reach out. As the projects I undertake go on, this page will be updated to display my latest accomplishments.
+
+## Languages Used
+-HTML
+-CSS
+-JavaScript
+
+## Technology Used
+-Bootstrap
+-Google Fonts
+-Font Awesome
+-jQuery
+
