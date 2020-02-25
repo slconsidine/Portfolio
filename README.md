@@ -1,6 +1,6 @@
 # Portfolio
 ## Project Title
-### Samantha Considine Portfolio
+**Samantha Considine Portfolio**
 Github Pages Link - https://slconsidine.github.io/Portfolio/
 
 ## Description
