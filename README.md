@@ -1,7 +1,11 @@
 # Portfolio
 ## Project Title
 **Samantha Considine Portfolio**
+
+
 Github Pages Link - https://slconsidine.github.io/Portfolio/
+
+![Portfolio](https://github.com/slconsidine/Portfolio/blob/master/assets/images/portfolio-screenshot.PNG)
 
 ## Description
 This portfolio showcases my abilities and achievements as a UI/UX designer and web developer. It also includes contact information for potential employers/clients to reach out. As the projects I undertake go on, this page will be updated to display my latest accomplishments.
