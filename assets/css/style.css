@@ -12,10 +12,6 @@ body {
     font-family: 'Open Sans', ;
 }
 
-.intro p {
-    color: #8a97b1;
-}
-
 /* Navigation */
 nav {
     height: 50px;
@@ -40,15 +36,15 @@ nav {
     z-index: 3;
 }
 
-.navbar-collapse {
-    width: 100%;
-}
 
 
-
-/* Content */
+/* All Content */
 .intro {
     margin-top: 20px;
+}
+
+.intro p {
+    color: #8a97b1;
 }
 
 .main {
@@ -59,26 +55,8 @@ nav {
     color: #1b1d28;
 }
 
-.bio {
-    padding: 20px;
-}
-
 .row {
     margin: auto;
-}
-
-.row-2 {
-    margin-top: 100px;
-}
-
-.proj {
-    margin-bottom: 25px;
-}
-
-i {
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 30px;
 }
 
 a {
@@ -91,6 +69,37 @@ a:hover {
     color: #8a97b1;
 }
 
+button {
+    background-color: #76819b;
+    color: #faf9f9;
+    border: 1px #1b1d28 solid;
+    font-family: 'Open Sans';
+}
+
+i {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+/* Home Page */
+.bio {
+    padding: 20px;
+}
+
+.profile {
+    padding: 10px;
+}
+
+/* Contact Page */
+.comment {
+    color: #8a97b1;
+}
+
+.contact-div {
+    padding-top: 20px;
+}
+
 .contact-form {
     padding-top: 30px;
 }
@@ -99,16 +108,12 @@ a:hover {
     margin-top: 150px;
 }
 
-
-
-
-
+/* Portfolio Page */
 .card {
     background-color: #8a97b1;
     color: #1b1d28;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 .card img {
@@ -129,26 +134,13 @@ a:hover {
     border: #1b1d28;
 }
 
-.comment {
-    color: #8a97b1;
-}
-
-.contact-div {
-    padding-top: 20px;
-}
-
-.profile {
-    padding: 10px;
-}
-
-button {
-    background-color: #76819b;
-    color: #faf9f9;
-    border: 1px #1b1d28 solid;
-    font-family: 'Open Sans';
-}
-
 .icon-btn {
     background-color: #2a2f46;
     border: none;
 }
+
+
+
+
+
+
