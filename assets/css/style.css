@@ -1,16 +1,40 @@
+/* main brand color: #2a2f46;
+light shades: #faf9f9;
+dark shades: #1b1d28;
+light accent: #8a97b1;
+dark accent: #76819b; */
+
+
+body {
+    margin-bottom: 30px;
+    background-color: #2a2f46;
+    color: #faf9f9;
+    font-family: 'Open Sans', ;
+}
+
+.intro p {
+    color: #8a97b1;
+}
+
 /* Navigation */
 nav {
-    height: 80px;
+    height: 50px;
+    background-color: #2a2f46;
+    color: #faf9f9;
 }
 
 
 /* Content */
 .intro {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .main {
-    margin-top: 100px;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #8a97b1;
+    color: #1b1d28;
 }
 
 .bio {
@@ -42,6 +66,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #8a97b1;
 }
 
 .contact-form {
@@ -53,6 +78,34 @@ a:hover {
     height: 294px;
 }
 
+.contact-port {
+    margin-top: 150px;
+}
+
 /* .card img {
     opacity: 0.5;
 } */
+
+.comment {
+    color: #8a97b1;
+}
+
+.contact-div {
+    padding-top: 20px;
+}
+
+.profile {
+    padding: 10px;
+}
+
+button {
+    background-color: #76819b;
+    color: #faf9f9;
+    border: 1px #1b1d28 solid;
+    font-family: 'Open Sans';
+}
+
+.icon-btn {
+    background-color: #2a2f46;
+    border: none;
+}
