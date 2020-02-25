@@ -1,15 +1,20 @@
-/* main brand color: #2a2f46;
+/* 
+
+Color Scheme:
+main brand color: #2a2f46;
 light shades: #faf9f9;
 dark shades: #1b1d28;
 light accent: #8a97b1;
-dark accent: #76819b; */
+dark accent: #76819b; 
 
+*/
 
 body {
-    margin-bottom: 30px;
     background-color: #2a2f46;
     color: #faf9f9;
-    font-family: 'Open Sans', ;
+    font-family: 'Source Sans Pro';
+    height: 100%;
+    padding-bottom: 150px;
 }
 
 /* Navigation */
@@ -18,6 +23,8 @@ nav {
     background-color: #2a2f46;
     color: #faf9f9;
     padding: 0 10px;
+    font-family: 'Oswald';
+    letter-spacing: 0.05em;
 }
 
 .navbar-toggler {
@@ -41,6 +48,11 @@ nav {
 /* All Content */
 .intro {
     margin-top: 20px;
+}
+
+h1, h2 {
+    font-family: 'Oswald';
+    letter-spacing: .1em; 
 }
 
 .intro p {
@@ -73,13 +85,24 @@ button {
     background-color: #76819b;
     color: #faf9f9;
     border: 1px #1b1d28 solid;
-    font-family: 'Open Sans';
+    font-family: 'Source Sans Pro';
 }
 
 i {
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    background-color: #2a2f46;
+    border-top: 5px #76819b solid;
 }
 
 /* Home Page */
@@ -97,6 +120,7 @@ i {
 }
 
 .contact-div {
+    margin-top: 50px;
     padding-top: 20px;
 }
 
@@ -108,12 +132,27 @@ i {
     margin-top: 150px;
 }
 
+.contact-div .btn {
+    background-color: #1b1d28;
+    color: #faf9f9;
+    border: #1b1d28;
+}
+
+.contact-div .btn:hover {
+    color: #8a97b1;
+    
+}
+
 /* Portfolio Page */
 .card {
     background-color: #8a97b1;
     color: #1b1d28;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.card h5 {
+    font-weight: bold;
 }
 
 .card img {
@@ -138,9 +177,3 @@ i {
     background-color: #2a2f46;
     border: none;
 }
-
-
-
-
-
-
