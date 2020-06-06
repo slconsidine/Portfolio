@@ -62,7 +62,7 @@ h1, h2 {
 .main {
     margin-top: 25px;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: #8a97b1;
     color: #1b1d28;
 }
@@ -176,4 +176,8 @@ footer {
 .icon-btn {
     background-color: #2a2f46;
     border: none;
+}
+
+.rounded-circle {
+    padding: 0px 7px;
 }
